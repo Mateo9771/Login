@@ -1,0 +1,30 @@
+body{
+    background-image: url(../image/IMG_20190328_130102739_HDR.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.log{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50vh;
+    background-color: rgba(47, 165, 72, 0.534);
+    height: 50vh;
+    border:1px solid;
+    border-radius: 40%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.btn{
+    background-color: black;
+    color: white;
+    width: 20vh;
+    border-radius: 30px;
+    cursor: pointer;
+}
